@@ -28,8 +28,10 @@ The procedure a user will follow is:
 
 
 ## Repository contents
-
-homes
-hosts
-modules
-flake.nix
+```mermaid
+graph TD;
+    root-->homes;
+    root-->hosts;
+    root-->modules;
+    root-->flake.nix;
+```
